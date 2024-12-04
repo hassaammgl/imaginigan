@@ -13,7 +13,7 @@ const AddTransformationType = ({ params: { type } }: { SearchParamProps }) => {
 				title={transformation.title}
 				subtitle={transformation.subTitle}
 			/>
-			<TransformationForm />
+			<TransformationForm action="Add" />
 		</>
 	);
 };
